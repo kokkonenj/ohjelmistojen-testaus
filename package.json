@@ -5,7 +5,7 @@
   "description": "Repo for course project",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc --all mocha"
   },
   "repository": {
     "type": "git",

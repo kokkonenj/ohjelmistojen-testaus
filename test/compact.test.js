@@ -17,7 +17,6 @@ describe('compact', () => {
     it('Array with falsey and true values', () => {
         assert.deepEqual(compact(mixArr),[1,2,3]);
     });
-    it
     it('Array with falsey and true values2', () => {
         assert.deepEqual(compact(mixArr2), [1, 2, 3]);
     });

@@ -20,6 +20,9 @@ describe('divide', () => {
     it('Works with easy parameters', () => {
         assert.equal(divide(4,2), 2);
     });
+    it('Works with negative parameters', () => {
+        assert.equal(divide(-4, 2), -2);
+    });
     it('Works with strings as parameters', () => {
         assert.equal(divide("4", "2"), 2);
     });

@@ -22,19 +22,19 @@ describe('endsWith', () => {
     it('Negative position', () => {
         assert.equal(endsWith("abc", "a",-7), false);
     });
-    it('No exception thrown with non-string input (Empty object)', () => {
+    it('No exception thrown with non-string parameter (Empty object)', () => {
         assert.doesNotThrow(() => { endsWith(emptyObj, "c"); }, Error);
     });
-    it('No exception thrown with non-string input (Object)', () => {
+    it('No exception thrown with non-string parameter (Object)', () => {
         assert.doesNotThrow(() => { endsWith(foobar, "r"); }, Error);
     });
-    it('No exception thrown with non-string input (Object), position specified', () => {
+    it('No exception thrown with non-string parameter (Object), position specified', () => {
         assert.doesNotThrow(() => { endsWith(foobar, "c", 4); }, Error);
     });
-    it('No exception thrown with non-string input (integer)', () => {
+    it('No exception thrown with non-string parameter (integer)', () => {
         assert.doesNotThrow(() => { endsWith(14, "c"); }, Error);
     });
-    it('No exception thrown with non-string input (integer), position specified', () => {
+    it('No exception thrown with non-string parameter (integer), position specified', () => {
         assert.doesNotThrow(() => { endsWith(143, "c", 2); }, Error);
     });
 

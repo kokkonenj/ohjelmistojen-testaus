@@ -1,0 +1,9 @@
+{
+	"all": true,
+	"include": [
+		"**/COMP.SE.200-2021-2022-1/src/**"
+	],
+	"exclude": [
+		"**/COMP.SE.200-2021-2022-1/src/.internal/**"
+	]
+}

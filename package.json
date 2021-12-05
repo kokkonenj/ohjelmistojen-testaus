@@ -5,7 +5,9 @@
   "description": "Repo for course project",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha --reporter mochawesome"
+    "test": "mocha --reporter mochawesome",
+    "coverage": "c8 mocha",
+    "report": "c8 report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/kokkonenj/ohjelmistojen-testaus#readme",
   "devDependencies": {
+    "c8": "^7.10.0",
     "chai": "^4.3.4",
     "mocha": "^9.1.3",
     "mocha-lcov-reporter": "^1.3.0",

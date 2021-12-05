@@ -5,8 +5,7 @@
   "description": "Repo for course project",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter mochawesome",
-    "coverage": "c8 mocha",
+    "test": "c8 mocha --reporter mochawesome",
     "report": "c8 report --reporter=html"
   },
   "repository": {
